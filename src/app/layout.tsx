@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: '90s Teen Culture',
   description: 'A cuture website about everything in the 1990s',
 }
-import NavBar from './components/NavBar'
+
 
 export default function RootLayout({
   children,
@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NavBar />
+      
         {children}
       </body>
     </html>
